@@ -68,7 +68,7 @@ app.post("/login", (req, res) => {
     const username = body.username;
     const pass = body.pass;
 
-    if(username === "aryan" && pass === 123)
+    if(username === "aryan" && pass === "123")
         res.json({
             data: "success",
         })
